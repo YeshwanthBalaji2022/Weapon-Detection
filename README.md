@@ -10,7 +10,6 @@
 - It accelerates training, requires less data, and improves performance.
 - It's effective when tasks share features or data distributions.
 
-![image.png](attachment:image.png)
 
 ### Required Imports
 
@@ -67,11 +66,6 @@ classifier = tf.keras.Sequential([
 
 <center>Example : Humming Bird</center>
 
-<center>
-
-![hmgbrd.jpeg](attachment:hmgbrd.jpeg)
-
-</center>
 
 ```python
 hmgbrd = Image.open("./mdimgs/hmgbrd.jpeg")
